@@ -1,15 +1,4 @@
-interface FillsColor {
-    r : number
-    g : number
-    b : number
-    a : number
-}
-
-interface Fills {
-    type: string,
-    color: FillsColor
-}
-
+import { Fills } from "./Fills";
 
 export interface FigmaNode {
     id : string,
